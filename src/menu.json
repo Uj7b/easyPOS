@@ -1,0 +1,309 @@
+{
+  "menu": [
+    {
+      "category": "Coffee",
+      "subcategories": [
+        {
+          "name": "Ice Coffee",
+          "items": [
+            {
+              "name": "Ice Latte",
+              "price": 4,
+              "image": "src/assets/images/ice-latte.webp"
+            },
+            {
+              "name": "Ice Mocha",
+              "price": 4.5,
+              "image": "src/assets/images/iced-mocha.webp"
+            },
+            {
+              "name": "Cold Brew",
+              "price": 5,
+              "image": "src/assets/images/cold-brew.png"
+            }
+          ]
+        },
+        {
+          "name": "American",
+          "items": [
+            {
+              "name": "Americano Classic",
+              "price": 3,
+              "image": "src/assets/images/americano-classic.png"
+            },
+            {
+              "name": "Americano Hazelnut",
+              "price": 3.5,
+              "image": "src/assets/images/americano-hazelnut.png"
+            }
+          ]
+        },
+        {
+          "name": "Café Noir",
+          "items": [
+            {
+              "name": "Café Noir Espresso",
+              "price": 3,
+              "image": "src/assets/images/cafe-noir-espresso.png"
+            },
+            {
+              "name": "Café Noir Double",
+              "price": 4,
+              "image": "src/assets/images/cafe-noir-double.png"
+            },
+            {
+              "name": "Café Noir Latte",
+              "price": 4,
+              "image": "src/assets/images/cafe-noir-latte.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "subcategories": [
+        {
+          "name": "Juices",
+          "items": [
+            {
+              "name": "Orange Juice",
+              "price": 3,
+              "image": "src/assets/images/orange-juice.png"
+            },
+            {
+              "name": "Apple Juice",
+              "price": 3,
+              "image": "src/assets/images/apple-juice.png"
+            },
+            {
+              "name": "Mango Juice",
+              "price": 3.5,
+              "image": "src/assets/images/mango-juice.png"
+            }
+          ]
+        },
+        {
+          "name": "Smoothies",
+          "items": [
+            {
+              "name": "Strawberry Smoothie",
+              "price": 4.5,
+              "image": "src/assets/images/strawberry-smoothie.png"
+            },
+            {
+              "name": "Banana Smoothie",
+              "price": 4,
+              "image": "src/assets/images/banana-smoothie.png"
+            },
+            {
+              "name": "Mixed Berry Smoothie",
+              "price": 5,
+              "image": "src/assets/images/mixed-berry-smoothie.png"
+            }
+          ]
+        },
+        {
+          "name": "Soft Drinks",
+          "items": [
+            {
+              "name": "Cola",
+              "price": 2,
+              "image": "src/assets/images/cola.png"
+            },
+            {
+              "name": "Lemonade",
+              "price": 2.5,
+              "image": "src/assets/images/lemonade.png"
+            },
+            {
+              "name": "Sparkling Water",
+              "price": 2,
+              "image": "src/assets/images/sparkling-water.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Food",
+      "subcategories": [
+        {
+          "name": "Chicken",
+          "items": [
+            {
+              "name": "Grilled Chicken",
+              "price": 12,
+              "image": "src/assets/images/grilled-chicken.png"
+            },
+            {
+              "name": "Fried Chicken",
+              "price": 10,
+              "image": "src/assets/images/fried-chicken.png"
+            },
+            {
+              "name": "Chicken Wings",
+              "price": 9,
+              "image": "src/assets/images/chicken-wings.png"
+            }
+          ]
+        },
+        {
+          "name": "Seafood",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "price": 15,
+              "image": "src/assets/images/grilled-salmon.png"
+            },
+            {
+              "name": "Shrimp Pasta",
+              "price": 14,
+              "image": "src/assets/images/shrimp-pasta.png"
+            },
+            {
+              "name": "Fish Tacos",
+              "price": 13,
+              "image": "src/assets/images/fish-tacos.png"
+            }
+          ]
+        },
+        {
+          "name": "Pasta",
+          "items": [
+            {
+              "name": "Spaghetti Carbonara",
+              "price": 11,
+              "image": "src/assets/images/spaghetti-carbonara.webp"
+            },
+            {
+              "name": "Lasagna",
+              "price": 13,
+              "image": "src/assets/images/lasagna.png"
+            },
+            {
+              "name": "Penne Arrabiata",
+              "price": 10,
+              "image": "src/assets/images/penne-arrabiata.webp"
+            }
+          ]
+        },
+        {
+          "name": "Burgers & Sandwiches",
+          "items": [
+            {
+              "name": "Cheeseburger",
+              "price": 9,
+              "image": "src/assets/images/cheese-burger.png"
+            },
+            {
+              "name": "Club Sandwich",
+              "price": 8,
+              "image": "src/assets/images/club-sandwich.png"
+            },
+            {
+              "name": "Veggie Burger",
+              "price": 8,
+              "image": "src/assets/images/veggie-burger.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Appetizers",
+      "subcategories": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "French Fries",
+              "price": 4,
+              "image": "src/assets/images/french-fries.png"
+            },
+            {
+              "name": "Mozzarella Sticks",
+              "price": 5,
+              "image": "src/assets/images/mozzarella-cheese-sticks.png"
+            },
+            {
+              "name": "Onion Rings",
+              "price": 4.5,
+              "image": "src/assets/images/onion-rings.jpg"
+            },
+            {
+              "name": "Garlic Bread",
+              "price": 3,
+              "image": "src/assets/images/garlic-bread.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bakeries",
+      "subcategories": [
+        {
+          "name": "Pastries",
+          "items": [
+            {
+              "name": "Croissant",
+              "price": 2.5,
+              "image": "src/assets/images/croissant.png"
+            },
+            {
+              "name": "Muffin",
+              "price": 2,
+              "image": "src/assets/images/muffins.png"
+            },
+            {
+              "name": "Danish Pastry",
+              "price": 3,
+              "image": "src/assets/images/danish-pastry.png"
+            }
+          ]
+        },
+        {
+          "name": "Cakes",
+          "items": [
+            {
+              "name": "Chocolate Cake Slice",
+              "price": 4,
+              "image": "src/assets/images/chocolate-cake.png"
+            },
+            {
+              "name": "Cheesecake Slice",
+              "price": 4.5,
+              "image": "src/assets/images/cheesecake.png"
+            },
+            {
+              "name": "Carrot Cake Slice",
+              "price": 4,
+              "image": "src/assets/images/carrot-cake.png"
+            }
+          ]
+        },
+        {
+          "name": "Bread & Rolls",
+          "items": [
+            {
+              "name": "Baguette",
+              "price": 3,
+              "image": "src/assets/images/baguette.png"
+            },
+            {
+              "name": "Dinner Rolls (2 pcs)",
+              "price": 2.5,
+              "image": "src/assets/images/dinner-rolls.png"
+            },
+            {
+              "name": "Whole Wheat Bread (1 slice)",
+              "price": 1.5,
+              "image": "src/assets/images/whole-wheat-bread.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

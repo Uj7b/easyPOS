@@ -1,0 +1,114 @@
+:root {
+  --orange: #ff5733;
+  --green: #1BA672;
+}
+@import "tailwindcss";
+@font-face {
+  font-family: "fredoka";
+  src: url(assets/fonts/Fredoka-VariableFont_wdth\wght.ttf);
+}
+* {
+  font-family: "fredoka";
+  box-sizing: border-box;
+}
+body {
+  background: #EEF4FF;
+  position: relative;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Item Card */
+.item-card {
+  border-radius: 6px;
+  padding: 5px 25px;
+  background: white;
+  padding-top: 10px;
+  aspect-ratio: 150/ 188;
+}
+.card-image {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card-image img {
+  width: 100%;
+}
+.card-title h2 {
+  text-align: center;
+  font-family: "fredoka";
+  font-weight: 400;
+  margin: 10px 0;
+}
+.card-price p:first-child {
+  color: #9c9c9c;
+  text-align: center;
+  margin: 5px;
+  font-family: "fredoka";
+  font-weight: 300;
+}
+.card-price p:nth-child(2) {
+  color: #ff5733;
+  text-align: center;
+  margin: 8px;
+  font-family: "fredoka";
+  font-weight: 400;
+}
+.card-action {
+  height: 37px;
+  width: 160px;
+  margin: 5px auto;
+}
+.card-action .add {
+  background: var(--orange);
+  border: none;
+  font-family: "fredoka";
+  font-size: 15px;
+  color: white;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.card-action .quantity-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-action .quantity-container button:not(.quantity-input) {
+  color: #ff5733;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  text-align: center;
+  width: 45px;
+  background: white;
+}
+.quantity-input {
+  border: none;
+  width: 50px;
+  outline: none;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  background: #ff5733;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.pos {
+  color: var(--orange);
+}
+.logo {
+    font-family: "fredoka";
+    font-weight: 500;
+}
+.order-button {
+  background: var(--orange);
+}
+/* ? NotificationsTab Component*/
