@@ -5,7 +5,7 @@ export default function NavBar() {
     window.alert("feature coming soon");
   }
   function handleClick(e) {
-    window.alert(e);
+    window.alert("feature is coming soon");
   }
   return (
     <div className="flex items-center">
@@ -31,7 +31,7 @@ export default function NavBar() {
       </button>
       <div
         className="notification relative w-11 h-11 border border-gray-400 rounded-full flex justify-center items-center mx-6 cursor-pointer"
-        onClick={() => handleClick("love")}
+        onClick={() => handleClick()}
       >
         <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
           2

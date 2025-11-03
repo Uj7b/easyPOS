@@ -32,7 +32,7 @@ function Sidebar() {
     },
   ];
   return (
-    <aside className="w-fit h-full flex-col items-center justify-center bg-white my-3 ml-3 p-5 rounded-xl shadow-md">
+    <aside className="w-fit h-full flex-col items-center justify-center bg-white p-5 rounded-xl shadow-md">
       <ul>
         {MenuItems.map((item) => (
           <li>

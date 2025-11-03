@@ -8,7 +8,12 @@ import CategoryFilter from "./CategoryFilter";
 function App() {
   // const [order, setOrder] = useState([]);
   return (
-    <CategoryFilter></CategoryFilter>
+    <>
+      <Header />
+      <SideMenu />
+      <CategoryFilter />
+      <ProductGrid/>
+    </>
   );
 }
 
