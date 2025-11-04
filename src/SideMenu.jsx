@@ -42,7 +42,7 @@ function Sidebar() {
               }}
               className={`cursor-pointer px-2 py-4 w-full rounded-[7px] flex flex-col items-center justify-center gap-3 ${
                 active === item.name
-                  ? "text-white bg-green-400"
+                  ? "text-white bg-[#1BA672]"
                   : "text-gray-500"
               }`}
             >
