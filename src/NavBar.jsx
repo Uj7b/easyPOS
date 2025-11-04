@@ -4,7 +4,7 @@ export default function NavBar() {
   function handleOrder() {
     window.alert("feature coming soon");
   }
-  function handleClick(e) {
+  function handleClick() {
     window.alert("feature is coming soon");
   }
   return (

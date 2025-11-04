@@ -17,7 +17,7 @@ function ProductGrid() {
                  md:grid-cols-3
                  lg:grid-cols-4
                  xl:grid-cols-5
-                 mx-3 my-3 rounded-xl"
+                 my-3 rounded-xl"
     >
       {items.map((category, i) => (
         <div key={i} className="rounded-lg shadow">

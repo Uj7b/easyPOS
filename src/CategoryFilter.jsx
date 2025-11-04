@@ -9,7 +9,7 @@ function CategoryFilter() {
   }, [activeCategory]);
   const active = categories.find((c) => c.category === activeCategory);
   return (
-    <div className="flex gap-2.5 bg-white">
+    <div className="flex gap-2.5 bg-blue-300">
       <button className="cursor-pointer px-5 py-1.5 text-orange-500 bg-orange-200 w-fit rounded-full border border-orange-500">
         All
       </button>
